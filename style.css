@@ -7,4 +7,6 @@
 
 header {
     background-image: url(./Imagens/bg-mobile.png);
+    background-size: cover;
+    
 }
