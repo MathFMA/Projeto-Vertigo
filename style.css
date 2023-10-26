@@ -16,7 +16,7 @@
 }
 
 header {
-    background-image: url(./Imagens/bg-desktop.png);
+    background-image: url(./Imagens/bg-mobile.png);
     background-size: cover;
     height: 8.375rem;
     
@@ -117,3 +117,34 @@ main {
     font-weight: 700;
     font-size: 1rem;
 }
+
+.bg-desktop{
+    display: none;
+}
+
+@media(min-width:1000px) {
+
+    body{
+        display: flex;
+    }
+    
+    header{
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img{
+       width: 10rem;
+    }
+
+    main{
+       padding-inline: 7rem;
+    }
+
+    .bg-desktop{
+        display: block;
+    } 
+} 
+
+
