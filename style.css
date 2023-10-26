@@ -53,8 +53,8 @@ main {
 .input-box{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     margin-bottom: 1rem;
+    gap: 0.5rem;
 }
 
 .input-box div{
@@ -129,13 +129,18 @@ main {
     display: none;
 }
 
+.bg-desktop img{
+    display: block;
+   width: 100%; 
+   height: 100%;
+}
 
 @media(min-width:1000px) {
 
     body{
         display: flex;
         height: 100vh;
-        border: 1px solid red;
+        border: 1px 
     }
 
     header{
@@ -176,5 +181,3 @@ main {
     }
 
 } 
-
-
